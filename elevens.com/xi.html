@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<head>
+<title>
+  FEEDBACK
+</title>
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<link rel="stylesheet" href="xi.css">
+<link rel="stylesheet" href="form.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<div class="section">
+  
+<div class="container">
+<div class="content-section">
+<div class="title">
+<cursor="pointer">
+<p><a href="index.html">HOME</a> ><a href="xi.html">FEEDBACK<a> <br><br></p></cursor><br>
+
+
+
+<div class="content first">
+      <form action="#" onsubmit="sendEmail(); reset(); return false;">
+
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter your First name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last name</span>
+            <input type="text" placeholder="Enter your Last name" required>
+          </div>
+		   
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Country or Origin</span>
+            <input type="text" placeholder="Enter your Country or Origin" required>
+          </div>
+          <div class="input-box">
+
+            <span class="details">Feedback</span>
+            <input type="text" placeholder="Enter your Feedback here" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Your Favourite Player</span>
+            <input type="text" placeholder="Enter Your Favourite Player" required>
+          </div>
+        </div>  
+		 
+	
+		
+
+       <div class="enter-details">
+          
+          
+        <div class="button">
+          <input type="submit" value="Enter">
+        </div>
+		
+        </div>  
+      </form>
+    </div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="footer-col">
+<h3>WEBSITE</h3>
+<ul>
+<li><a href="index.html">HOME</li>
+<li><a href="#">PLAYER RANKINGS</a></li>
+<li><a href="#">TEAM RANKINGS</a></li>
+<li><a href="#">FEEDBACK</a></li>
+<li><a href="#">UPCOMING</a></li>
+<li><a href="aboutus.html">ABOUT US</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h3>GET FURTHER</h3>
+<ul>
+<li><a href="#">FAQ</li>
+<li><a href="#">FACEBOOK</a></li>
+<li><a href="#">INSTAGRAMM</a></li>
+<li><a href="#">TWITTER</a></li>
+<li><a href="#">YOUTUBE</a></li>
+<li><a href="#">LINKEDIN</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h3>QUICK LINKS</h3>
+<ul>
+<li><a href="https://www.icc-cricket.com/homepage">ICC</li>
+<li><a href="https://en.wikipedia.org/wiki/International_Cricket_Council">WIKIPEDIA</a></li>
+<li><a href="https://srilankacricket.lk/">SRI LANKA CRICKET</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<br><br>
+<h4>©elevenz.com 2022</h4>
+<h4>All rights reserved</h4>
+<img src="elevenzcom-low-resolution-logo-white-on-transparent-background.png" class="logo">
+</div>
+</div>
+</div>
+</footer>
+<style>
+</style>
+<script src="https://smtpjs.com/v3/smtp.js">  </script>
+  <script>
+    function sendEmail(){
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "nethhashara@gmail.com",
+    Password : "password",
+    To : 'newuser200013@gmail.com',
+    From :document.getElementById("Email").value,
+    Subject : "Feedback",
+    Body : "Name : "+document.getElementById("First Name").value+" "+document.getElementById("Last Name").value+
+    "<br> Email :  "+document.getElementById("Email").value+
+    "<br> Country or Origin : "+document.getElementById("Country or Origin").value+
+    "<br> Feedback : "+document.getElementById("Feedback").value+
+    "<br> Faurite Player : "+document.getElementById("Your Favourite Player").value+
+}).then(
+  message => alert("Feedback Send !! Thank You ")
+);
+    }
+
+</script>
+
+</body>
+</html>

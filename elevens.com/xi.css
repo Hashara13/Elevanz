@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+margin:0;
+padding:0
+box-sizing:border-box;
+}
+.section{
+width:100%;
+margin:none;
+min-width:100vw;
+min-height:110vh;
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("aksh-yadav-bY4cqxp7vos-unsplash.jpg");
+
+}
+.container{
+width:80%
+display:white;
+margin:0px;
+padding-top:90px;
+padding-left:50px;
+}
+.title p{
+font-size:21px;
+font-weight:520;
+padding-top:-50px;
+color:#F4DEE9;
+display: inline-block;
+list-style:none;
+margin-top:-40px;
+}
+.title p a{
+color: #F4DEE9;
+font-weight:520;
+text-decoration: none;
+
+}
+.image-section img{
+width:30%;
+height:100px;
+padding:10px 100px;
+}
+.image-section{
+float:right;
+width:50%;
+height:100%;
+transform:translateY(-157%);
+margin-right:80px;
+margin-top:0px;
+}
+.title{
+font-family: "Gill Sans", sans-serif;
+text-transform:uppercase;
+font-size:200%;
+transform:translateY(-2%);
+color:#ABCDE3 ;
+}
+.footer.container{
+max-width:1170px;
+height:20px;
+margin:auto;
+}
+.footer{
+background-color:#215DA1;
+padding:80px 100px;
+width:88%;
+height:110px;
+margin-top:0px;
+font-size:18px;
+line_height:1.5;
+font-family: 'Poppins', sans-serif;
+text-align:left:
+}
+.row{
+display:flex;
+flex-wrap:wrap;
+padding-top:-50px;
+}
+.footer-col ul{
+list-style:none;
+}
+.footer-col{
+width:25%;
+margin-top:-140px;
+}
+.footer-col ul li a{
+color:#E5ECF3;
+text-decoration: none;
+font-weight:600;
+letter-spacing:1px;
+}
+.footer-col h3{
+font-size:19px;
+font-weight:1000;
+color:#E9EFCB;
+margin-left:35px;
+margin-bottom:28px;
+position:relative;
+text-transform:capitalize;
+letter-spacing:2px;
+}
+.footer-col h3::after{
+content:'';
+position:absolute;
+left:0;
+bottom:-8px;
+background-color:#99B9D8;
+height:2px;
+box-sizing:border-box;
+width:70px;
+}
+.footer-col h4{
+font-size:19px;
+color:#C6C8CB;
+margin-left:37px;
+margin-top:-5px;
+}
+.footer-col img{
+width:240px;
+cursor: pointer;
+margin-left:-40px;
+margin-top:3px;
+}
+
+
+
+

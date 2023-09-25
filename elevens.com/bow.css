@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+margin:0;
+padding:0
+box-sizing:border-box;
+}
+.section{
+width:100%;
+margin:none;
+min-width:100vw;
+min-height:110vh;
+background-image:
+linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("wp4506277-dale-steyn-wallpapers.jpg");
+}
+.container{
+width:80%
+display:white;
+margin:0px;
+padding-top:90px;
+padding-left:50px;
+}
+.contents-section{
+float:left;
+width:105%;
+padding:54px 87px;
+}
+.content{
+width:100%;
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+text-align:center;
+color:#E9EFCB;
+margin-top:190px;
+}
+.content h1{
+font-size:90px;
+margin-top:80px;
+color:#D7EFF3;
+}
+.content h2{
+font-size:40px;
+margin:20px auto;
+font-weight:100;
+line-height:25px;
+margin-top:0px;
+color:#FFFFF7;
+}
+.content button{
+width:190px;
+transform:translateY(-1094%);
+font-size:21px;
+height:40px;
+padding:0px -90px;
+text-align:center;
+margin:0px -4px;
+margin-top:-50px;
+border-radius:1px;
+font-weight:540;
+cursor:pointer;
+background:transparent;
+border:0.1px solid transparent;
+}
+.content button::after{
+	content:"";
+	height:3px;
+	width:0px;
+	background:#E9ECAB;
+	position:absolute;
+	left:22px;
+	bottom:-10px;
+	transition:0.6s;
+}
+.content button:hover::after{
+	width:140px;
+}
+.content button h7{
+	font-size:21px;
+	color:#B0EDEA;
+}	
+.content h5{
+margin-top:-64px;
+margin-left:150px;
+padding:0px -90px;
+}
+.content button a{
+color: #FFFFF7;
+text-decoration: none;
+}
+span{
+background:transparent;
+text-align:center;
+padding:5px;
+}
+.title p{
+font-size:21px;
+padding-top:-50px;
+color:#BEC5BE;
+display: inline-block;
+list-style:none;
+margin-top:-40px;
+}
+.title p a{
+color: #BEC5BE;
+text-decoration: none;
+
+}
+.image-section img{
+width:30%;
+height:100px;
+padding:10px 100px;
+}
+.image-section{
+float:right;
+width:50%;
+height:100%;
+transform:translateY(-157%);
+margin-right:80px;
+margin-top:0px;
+}
+.title{
+font-family: "Gill Sans", sans-serif;
+text-transform:uppercase;
+font-size:200%;
+transform:translateY(-2%);
+color:#ABCDE3 ;
+}
+.table-box{
+	margin:50px auto;
+}
+.table-row{
+display:tables;
+width:88%;
+margin:18px auto;
+font-family:sans-serif;
+background:transparent;
+padding:12px auto;
+color:#09010A;
+font-size:13px;
+box-shadow:0 1px 4px 0 rgba(0,0,50,0.3);
+}
+.table-cell{
+	display:table-cell;
+	width:30%
+	text-align:center;
+	padding:4px 0;
+	border-right:1px solid #27262D;
+	vertical-align:middle;
+}
+.table-cell h9{
+	text-align:center;
+}
+.table-cell .table-head {
+	text-align:center;
+}
+.table-cell .table-head{
+	background:#470551
+	box-shadow:none;
+color:#fff;
+font-weight:600;
+}
+.table-head.table-cell{
+	border-right:none;
+}
+.last-cell{
+border-right:none;
+}
+.first-cell{
+border-left:none;
+}
+.footer.container{
+max-width:1170px;
+height:20px;
+margin:auto;
+}
+.footer{
+background-color:#215DA1;
+padding:80px 100px;
+width:88%;
+height:110px;
+margin-top:0px;
+font-size:18px;
+line_height:1.5;
+font-family: 'Poppins', sans-serif;
+text-align:left:
+}
+.row{
+display:flex;
+flex-wrap:wrap;
+padding-top:-50px;
+}
+.footer-col ul{
+list-style:none;
+}
+.footer-col{
+width:25%;
+margin-top:-140px;
+}
+.footer-col ul li a{
+color:#E5ECF3;
+text-decoration: none;
+font-weight:600;
+letter-spacing:1px;
+}
+.footer-col h3{
+font-size:19px;
+font-weight:1000;
+color:#E9EFCB;
+margin-left:35px;
+margin-bottom:28px;
+position:relative;
+text-transform:capitalize;
+letter-spacing:2px;
+}
+.footer-col h3::after{
+content:'';
+position:absolute;
+left:0;
+bottom:-8px;
+background-color:#99B9D8;
+height:2px;
+box-sizing:border-box;
+width:70px;
+}
+.footer-col h4{
+font-size:19px;
+color:#C6C8CB;
+margin-left:37px;
+margin-top:-5px;
+}
+.footer-col img{
+width:240px;
+cursor: pointer;
+margin-left:-40px;
+margin-top:3px;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100&family=Ubuntu&display=swap');
+
+.content table, th, td{
+width:80%;
+margin:auto;
+border:1px solid transparent;
+border-collapse:collapse;
+text-align:center;
+font-size:20px;
+table-layout:fixed;
+background:transparent;
+opacity:1;
+color:#E5ECE7;
+margin-top:-400px;
+table-align:left;
+transform:translateY(38%);
+height:20%;
+font-family: 'Ubuntu', sans-serif;
+padding-top:22px;
+letter-spacing:2px;
+}
+th, td{
+padding-top:22px;
+padding-left:10px;
+opacity:0.9;
+width:5%;
+height:2%;
+}
+table,th{
+	background:transparent;
+	color:#E5FAF7;
+	opacity:1;
+}
+.tabler tr{
+	width:10%;
+}
+.t-first{
+	border-left:1px solid white;
+	height:400px;
+	position:absolute;
+	left:50%;
+	margin-left:-260px;
+	top:0;
+	opacity:0.6;
+	margin-top:242px;
+}
+.t-second{
+	border-left:2px solid white;
+	height:400px;
+	position:absolute;
+	left:50%;
+	margin-left:512px;
+	top:0;
+	opacity:0.65;
+	margin-top:0px;
+}
+th a{
+color: #F1B8A8;
+text-decoration: none;
+font-size:25px;
+font-family: 'Bebas Neue', cursive;
+letter-spacing:5px;
+}
+th a::after{
+	content:"";
+	height:3px;
+	width:0px;
+	background:#F1B8A8;
+	position:absolute;
+	left:160px;
+	bottom:-10px;
+	transition:0.8s;
+	margin-left:40px;
+}
+th a:hover::after{
+	width:100px;
+}
